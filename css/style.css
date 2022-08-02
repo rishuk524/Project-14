@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 20px;
+    gap: 100px;
+    color:#868686;
+    cursor: pointer;
+}
+.list .list-item:nth-child(2){
+    color: #000000;
+    font-size: 15px;
+}
+.line {
+    position: relative;
+    left: 80px;
+    top: 10px;
+    width: 20%;
+    border-radius: 40px;
+    height: 2px;
+    background-color: #333333;
+}
+.img-1 img{
+   position: relative;
+   bottom: 80px;
+   z-index: -1;
+}
+.right{
+    display: flex;
+    position: relative;
+    width: 60vw;
+}
+.heading {
+    position: absolute;
+    left: 500px;
+    top: -540px;
+}
+.heading h1 {
+    font-family: "Merriweather";
+    font-size: 7rem;
+    font-weight: 900;
+    color: #333333;
+}
+.heading > h1 {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.heading > h1::after {
+    content: "";
+    width: 50px;
+    height: 12px;
+    display: inline-block;
+    border: 2px solid #898888;
+    margin-bottom: 25px;
+}
+.heading div {
+    margin-left: 110px;
+    margin-top: -30px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+
+} 
+.heading div p {
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 30px;
+    color: #898888;
+    padding-left: 40px;
+    padding-top: 30px;
+    
+}
+.heading div h1::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-color: #333333;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    bottom: 100px;
+    left: 250px;
+} 
+
+.right .btn-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    right: -190px;
+}
+.right .btn-wrapper button {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 17px 78px;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.social-icons {
+    position: relative;
+    left: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    bottom: 600px;
+}
+.social-icons img {
+    width: 25px;
+}
+.social-icons img:nth-child(2) {
+    width: 20px;
+}
+.social-icons img:nth-child(3) {
+    width: 20px;
+}
+.social-icons img:nth-child(4) {
+    width: 20px;
+}
+.bottom {
+    position: relative;
+    bottom: 150px;
+    left: 500px;
+}
+.bottom ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 50px;
+}
+.bottom ul li {
+    font-size: 16px;
+    list-style-type: none;
+    color: #868686;
+    display: flex;
+    align-items: center;
+}
+.bottom ul li:not(:last-child) {
+    padding-bottom: 28px;
+}
+.bottom ul li span {
+    background-color: #868686;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: center;
+    margin-right: 10px;
+}
+.active-item .dot {
+    background-color: #333333;
+}
+.active-item p {
+    color: #333333;
+}
+.bottom .line-dot {
+    height: 120%;
+    width: 1.55px;
+    background-color: #868686;
+    position: absolute;
+    left: 7px;
+    top: 20px;
+}
+.bottom-quote {
+    position: relative;
+    right: -140px;
+    bottom: 150px;
+}
+.bottom-quote p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.img {
+    width: 400px;
+}
+.quote-icon .fa-quote-right {
+    color: #333333;
+    font-size: 40px;
+}
+.arrow i{
+    position: absolute;
+    top: 120px;
+    right: -140px;
+    font-size: 50px;
+}
+body {
+    background-color: #f5f2f0;
+    font-family: "Poppins", sans-serif;
+}
+.logo img{
+   color: #000000;
+   width: 10%;
+   position: relative;
+   top: 30px;
+   left: 50px;
+}
